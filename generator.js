@@ -83,6 +83,7 @@ module.exports = (api, options, rootOptions) => {
     Object.keys(files).forEach(name => {
       delete files[name]
     })
+    console.log('filefile1:', files)
 
     const template = options.repo || options.template
 
