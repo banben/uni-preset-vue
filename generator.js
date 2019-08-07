@@ -79,6 +79,7 @@ module.exports = (api, options, rootOptions) => {
   }
 
   api.render(async function (files) {
+    console.log(files)
     Object.keys(files).forEach(name => {
       delete files[name]
     })
